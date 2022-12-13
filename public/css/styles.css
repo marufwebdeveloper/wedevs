@@ -1,0 +1,35 @@
+#wd-modal{
+	position: fixed;width: 300px;z-index: 999;right: 10px;padding: 10px;top: 10px;animation: slidedown 0.5s;box-shadow: 0 0 4px #333;
+}
+.alert-success{
+	background-color: #317d5a
+}
+.alert-error{
+	background-color: #922424
+}
+
+.wd-modal-title{
+	color: white;display: inline-block;margin: 0;width: calc(100% - 25px);
+}
+.wd-modal-close{
+	color: #eee;display: inline-block;width: 20px;margin: 0;text-align: center;cursor: pointer;height: 20px;font-weight: bold;
+}
+@keyframes slidedown {
+  from {top: -50px;}to {top: 10px;}
+}
+
+.wd-form-label{
+	display: block;
+}
+
+.wd-form-field{
+	width: 100%;max-width: 400px;padding: 5px 10px;border-radius: 2px;border: 1px solid #999;
+}
+.wd-btn-primary{
+	padding: 5px 10px;
+    border: 1px solid #007595;
+    color: white;
+    background-color: #007595;
+    border-radius: 3px;
+}
+
